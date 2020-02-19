@@ -2,9 +2,12 @@
 
 body{
     margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
+    /*display: grid;
+    grid-template-rows: auto 600px auto ;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     background-color:#ECEEF1;
     box-sizing: border-box;
 }
@@ -15,4 +18,18 @@ body{
     width: auto;
     height: auto;   
 }
+
+/*---------Styling-the-Master-container-that-contains-all-the-forms------*/
+
+/*setting-up-the-grids-and-initial-sizes*/
+
+.MasterContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+
+}
+
+
+
 
