@@ -1,0 +1,18 @@
+/*---------Styling-the-main-containers-of-the-page----------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    background-color:#ECEEF1;
+    box-sizing: border-box;
+}
+
+.navigation, .MasterContainer, .FootBar{
+    border: solid 1px black;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;   
+}
+
