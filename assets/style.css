@@ -85,10 +85,11 @@ align-items: flex-start;
 }
 /*--Styling-the-Intuit-brand-bar---*/
 
-.BrandIntuitLogo{
+
+.BrandIntuitLogo {
   background-image: url(./img/logoIntuit.png);
   background-position: 0 0;
-  height: 100px;
-  width: 1000px;
+  height: 35px;
+  width: 360px;
   background-repeat: no-repeat;
 }
