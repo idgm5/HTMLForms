@@ -230,3 +230,30 @@ align-items: flex-start;
   text-decoration: none;
   color: #0077c5;
 }
+
+.captchaTermUse {
+  align-self: flex-end;
+  justify-self: flex-end;
+  background-color: #ECEEF1;
+  font-size: 12px;
+  margin: 32px -30px -30px !important;
+  padding: 16px !important;
+  color: rgb(117, 117, 117);
+  line-height: 1.3rem;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.captchaTermUse > p {
+  padding: 0;
+  margin: 0;
+}
+
+.captchaTermUse > p > a {
+  text-decoration: none;
+  color: #0077c5;
+  padding: 0;
+  margin: 0;
+}
