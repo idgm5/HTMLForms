@@ -26,6 +26,8 @@ align-items: flex-start;
     grid-row-start: 2;
     grid-row-end: 3;
     justify-self: stretch;
+    display: flex;
+    flex-direction: column;
 }
 
 .FormContainer {
@@ -88,8 +90,38 @@ align-items: flex-start;
 
 .BrandIntuitLogo {
   background-image: url(./img/logoIntuit.png);
-  background-position: 0 0;
-  height: 35px;
-  width: 360px;
+  height: 40px;
   background-repeat: no-repeat;
+  background-position: left 0 top;
+  width: 117px;
+  align-self: center;
+}
+
+.Logos {
+  display: flex;
+  align-self: center;
+}
+
+.Logos > .mint {
+  background-image: url(./img/logoIntuit.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: left -253px bottom;
+  width: 66px;
+}
+
+.Logos > .quickbooks {
+  background-image: url(./img/logoIntuit.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: left -115px bottom;
+  width: 133px;
+}
+
+.Logos > .turbotax {
+  background-image: url(./img/logoIntuit.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: left 0 bottom;
+  width: 100px;
 }
