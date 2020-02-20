@@ -1,35 +1,46 @@
 /*---------Styling-the-main-containers-of-the-page----------*/
 
 body{
-    margin: 0;
-    /*display: grid;
-    grid-template-rows: auto 600px auto ;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    background-color:#ECEEF1;
-    box-sizing: border-box;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 40px 60px 615px auto ;
+  grid-template-columns: auto 360px auto;    
+  background-color:#ECEEF1;
+/*box-sizing: border-box;*/
 }
-
-.navigation, .MasterContainer, .FootBar{
-    border: solid 1px black;
-    box-sizing: border-box;
-    width: auto;
-    height: auto;   
-}
-
 /*---------Styling-the-Master-container-that-contains-all-the-forms------*/
-
-/*setting-up-the-grids-and-initial-sizes*/
-
-.MasterContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: blue;
-
+.navigationRightSide{
+grid-column-start:3;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+background-color: blue;
+justify-self: center;
 }
 
+.IntuitLogoArea{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(255, 0, 242);
+    justify-self: center;
+}
 
+.FrormContainer{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(21, 255, 0);
+    justify-self: center;
+}
 
-
+.FootBar{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: rgb(255, 0, 55);
+    justify-self: center;
+}
