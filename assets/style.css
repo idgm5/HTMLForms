@@ -209,3 +209,24 @@ align-items: flex-start;
 .formTitle > h6 {
   margin: 0;
 }
+
+.AgreeingPivacyPolicy {
+  text-align: center;
+  width: 95%;
+}
+
+.AgreeingPivacyPolicy > p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: rgb(117, 117, 117);
+  line-height: 1.3rem;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.AgreeingPivacyPolicy > p > a {
+  text-decoration: none;
+  color: #0077c5;
+}
