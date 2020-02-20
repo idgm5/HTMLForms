@@ -3,7 +3,7 @@
 body {
   margin: 8px;
   display: grid;
-  grid-template-rows: 60px 117px 670px auto ;
+  grid-template-rows: 60px 117px 600px 70px auto ;
   grid-template-columns: 1fr 360px 1fr;
   background-color: #ECEEF1;
 /*box-sizing: border-box;*/
@@ -38,13 +38,25 @@ align-items: flex-start;
     grid-row-end: 4;
     background-color: white;
     justify-self: stretch;
+    border-top: solid 1px rgb(117, 117, 117);
+    border-left: solid 1px rgb(117, 117, 117) ;
+    border-right: solid 1px rgb(117, 117, 117);
+}
+
+.captchaTermUse {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: white;
+  justify-self: stretch;
 }
 
 .FootBar {
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
     background-color: rgb(255, 0, 55);
     justify-self: stretch;
 }
@@ -232,18 +244,20 @@ align-items: flex-start;
 }
 
 .captchaTermUse {
-  align-self: flex-end;
-  justify-self: flex-end;
+  align-self: baseline;
   background-color: #ECEEF1;
   font-size: 12px;
-  margin: 32px -30px -30px !important;
-  padding: 16px !important;
+  margin: 0;
+  padding: 1.3rem;
   color: rgb(117, 117, 117);
   line-height: 1.3rem;
   font-style: italic;
   font-size: 12px;
   font-weight: 400;
   text-align: center;
+  border-bottom: solid 1px rgb(117, 117, 117);
+  border-left: solid 1px rgb(117, 117, 117) ;
+  border-right: solid 1px rgb(117, 117, 117);
 }
 
 .captchaTermUse > p {
