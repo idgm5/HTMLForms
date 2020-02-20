@@ -88,4 +88,7 @@ align-items: flex-start;
 .BrandIntuitLogo{
   background-image: url(./img/logoIntuit.png);
   background-position: 0 0;
+  height: 100px;
+  width: 1000px;
+  background-repeat: no-repeat;
 }
