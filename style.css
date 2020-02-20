@@ -5,7 +5,7 @@ body {
   display: grid;
   grid-template-rows: 60px 117px 670px auto ;
   grid-template-columns: 1fr 360px 1fr;
-  background-color:#ECEEF1;
+  background-color: #edc194;
 /*box-sizing: border-box;*/
 }
 /*---------Styling-the-Master-container-that-contains-all-the-forms------*/
@@ -14,8 +14,10 @@ grid-column-start:3;
 grid-column-end: 4;
 grid-row-start: 1;
 grid-row-end: 2;
-background-color: blue;
 justify-self: stretch;
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
 }
 
 .IntuitLogoArea {
@@ -43,4 +45,42 @@ justify-self: stretch;
     grid-row-end: 5;
     background-color: rgb(255, 0, 55);
     justify-self: stretch;
+}
+
+/*---------Styling-ForgottenPw-Container------*/
+
+.SignInButton {
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
+.SignInButton > button {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  height: 34px;
+  font-size: 1.125rem;
+  font-style: italic;
+  color: white;
+}
+
+.SignInButton > button > i {
+  width: .8em;
+  vertical-align: text-top;
+  font-size: 18px;
+}
+
+.SignInButton > button > span {
+  padding: 0 10px;
+  font-size: 16px;
+}
+.ForgottenPw > p {
+  margin: 0;
+  color: #505050;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.ForgottenPw > p > a {
+  text-decoration: none;
 }
