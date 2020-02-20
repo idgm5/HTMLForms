@@ -107,15 +107,15 @@ align-items: flex-start;
   height: 40px;
   background-repeat: no-repeat;
   background-position: left -253px bottom;
-  width: 66px;
+  width: 80px;
 }
 
 .Logos > .quickbooks {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
   background-repeat: no-repeat;
-  background-position: left -115px bottom;
-  width: 133px;
+  background-position: left -116px bottom;
+  width: 138px;
 }
 
 .Logos > .turbotax {
