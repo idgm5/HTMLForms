@@ -83,12 +83,12 @@ body {
 }
 
 .SignInButton > button > i {
-  width: .8em;
+  width: 0.8em;
   vertical-align: text-top;
   font-size: 18px;
 }
 
-.SignInButton >  button > span {
+.SignInButton > button > span {
   padding: 0 10px;
   font-size: 16px;
 }
@@ -98,6 +98,18 @@ body {
   color: #505050;
   font-size: 12px;
   line-height: 1.5;
+}
+
+.Legal > a {
+  text-decoration: none;
+  color: #505050;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.formTitle > a {
+  text-decoration: none;
+  color: rgb(76, 76, 76);
 }
 
 .ForgottenPw > p > a {
@@ -198,7 +210,7 @@ body {
 }
 
 .CreateAccountButton > button > i {
-  width: .8em;
+  width: 0.8em;
   vertical-align: text-top;
   font-size: 1rem;
 }
@@ -207,9 +219,26 @@ body {
   text-align: center;
 }
 
-.formTitle > a {
-  text-decoration: none;
-  color: rgb(76, 76, 76);
+.AgreeingPivacyPolicy > p {
+  margin: 0;
+  padding: 0;
+  color: rgb(117, 117, 117);
+  line-height: 1.3rem;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.captchaTermUse > p {
+  padding: 0;
+  margin: 0;
+}
+
+.copyRights > p {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
 }
 
 .formTitle > a > p {
@@ -233,17 +262,6 @@ body {
   width: 95%;
 }
 
-.AgreeingPivacyPolicy > p {
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-  color: rgb(117, 117, 117);
-  line-height: 1.3rem;
-  font-style: italic;
-  font-size: 12px;
-  font-weight: 400;
-}
-
 .AgreeingPivacyPolicy > p > a {
   text-decoration: none;
   color: #0077c5;
@@ -252,7 +270,6 @@ body {
 .captchaTermUse {
   align-self: baseline;
   background-color: #eceef1;
-  font-size: 12px;
   margin: 0;
   padding: 1.3rem;
   color: rgb(117, 117, 117);
@@ -264,11 +281,6 @@ body {
   border-bottom: solid 1px #c7c7c7;
   border-left: solid 1px #c7c7c7;
   border-right: solid 1px #c7c7c7;
-}
-
-.captchaTermUse > p {
-  padding: 0;
-  margin: 0;
 }
 
 .captchaTermUse > p > a {
@@ -284,24 +296,10 @@ body {
   margin-bottom: 0;
 }
 
-.Legal > a {
-  text-decoration: none;
-  color: #505050;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.copyRights > p {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  text-align: center;
-}
-
 .Forms > form > input {
   border: 0.5px solid #c1c5c8;
   border-radius: 4px;
-  font-family: Arial, FontAwesome;
+  font-family: Helvetica, Arial, Verdana, Tahoma, FontAwesome;
   padding: 10px 0;
   font-size: 16px;
   text-indent: 10px;
