@@ -1,46 +1,46 @@
 /*---------Styling-the-main-containers-of-the-page----------*/
-
 body {
   margin: 8px;
   display: grid;
-  grid-template-rows: 60px 117px 600px 70px auto ;
+  grid-template-rows: 60px 117px 600px 70px auto;
   grid-template-columns: 1fr 360px 1fr;
   background-color: #ECEEF1;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
 /*---------Styling-the-Master-container-that-contains-all-the-forms------*/
 .navigationRightSide {
-grid-column-start:3;
-grid-column-end: 4;
-grid-row-start: 1;
-grid-row-end: 2;
-justify-self: stretch;
-display: flex;
-justify-content: flex-end;
-align-items: flex-start;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: stretch;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 .IntuitLogoArea {
-    grid-column-start:2 ;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    justify-self: stretch;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .FormContainer {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background-color: white;
-    justify-self: stretch;
-    border-top: solid 1px #C7C7C7;
-    border-left: solid 1px #C7C7C7;
-    border-right: solid 1px #C7C7C7;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;
+  justify-self: stretch;
+  border-top: solid 1px #C7C7C7;
+  border-left: solid 1px #C7C7C7;
+  border-right: solid 1px #C7C7C7;
 }
 
 .captchaTermUse {
@@ -53,30 +53,29 @@ align-items: flex-start;
 }
 
 .FootBar {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    justify-self: stretch;
-    background-color: #ECEEF1;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    color: #505050;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  justify-self: stretch;
+  background-color: #ECEEF1;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: #505050;
 }
 
 /*---------Styling-ForgottenPw-Container------*/
-
 .SignInButton {
   margin-left: 0.5rem;
   font-weight: normal;
 }
 
-.SignInButton > button {
+.SignInButton>button {
   background: #0077c5;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
@@ -86,29 +85,29 @@ align-items: flex-start;
   color: white;
 }
 
-.SignInButton > button > i {
+.SignInButton>button>i {
   width: .8em;
   vertical-align: text-top;
   font-size: 18px;
 }
 
-.SignInButton > button > span {
+.SignInButton>button>span {
   padding: 0 10px;
   font-size: 16px;
 }
-.ForgottenPw > p {
+
+.ForgottenPw>p {
   margin: 0;
   color: #505050;
   font-size: 12px;
   line-height: 1.5;
 }
 
-.ForgottenPw > p > a {
+.ForgottenPw>p>a {
   text-decoration: none;
 }
+
 /*--Styling-the-Intuit-brand-bar---*/
-
-
 .BrandIntuitLogo {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
@@ -123,7 +122,7 @@ align-items: flex-start;
   align-self: center;
 }
 
-.Logos > .mint {
+.Logos>.mint {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
   background-repeat: no-repeat;
@@ -131,7 +130,7 @@ align-items: flex-start;
   width: 80px;
 }
 
-.Logos > .quickbooks {
+.Logos>.quickbooks {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
   background-repeat: no-repeat;
@@ -139,7 +138,7 @@ align-items: flex-start;
   width: 138px;
 }
 
-.Logos > .turbotax {
+.Logos>.turbotax {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
   background-repeat: no-repeat;
@@ -148,7 +147,6 @@ align-items: flex-start;
 }
 
 /*--Styling-the-form-containers--*/
-
 .FormContainer {
   display: flex;
   flex-direction: column;
@@ -168,28 +166,33 @@ align-items: flex-start;
   width: 318px;
   height: 390px;
 }
-.Forms > form {
+
+.Forms>form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
   height: 5rem;
 }
-.Forms > form >label{
+
+.Forms>form>label {
   padding-bottom: 0.5rem;
   padding-top: 1rem;
 }
-.Forms > form > input {
+
+.Forms>form>input {
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   width: 100%;
 }
+
 .CreateAccountButton {
   padding-top: 2rem;
   font-weight: normal;
   width: 100%;
 }
-.CreateAccountButton > button {
+
+.CreateAccountButton>button {
   background: #0077c5;
   border-radius: 4px;
   border: none;
@@ -198,7 +201,8 @@ align-items: flex-start;
   padding: 0.8rem;
   width: 100%;
 }
-.CreateAccountButton > button > i {
+
+.CreateAccountButton>button>i {
   width: .8em;
   vertical-align: text-top;
   font-size: 1rem;
@@ -207,24 +211,25 @@ align-items: flex-start;
 .formTitle {
   text-align: center;
 }
-.formTitle > a {
+
+.formTitle>a {
   text-decoration: none;
   color: rgb(76, 76, 76);
 }
 
-.formTitle > a > p {
+.formTitle>a>p {
   font-size: 13px;
   margin: 0;
 }
 
-.formTitle > h6 > a {
+.formTitle>h6>a {
   text-decoration: none;
   font-size: 12px;
   color: #0077c5;
   font-weight: 300;
 }
 
-.formTitle > h6 {
+.formTitle>h6 {
   margin: 0;
 }
 
@@ -233,7 +238,7 @@ align-items: flex-start;
   width: 95%;
 }
 
-.AgreeingPivacyPolicy > p {
+.AgreeingPivacyPolicy>p {
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -244,7 +249,7 @@ align-items: flex-start;
   font-weight: 400;
 }
 
-.AgreeingPivacyPolicy > p > a {
+.AgreeingPivacyPolicy>p>a {
   text-decoration: none;
   color: #0077c5;
 }
@@ -265,49 +270,54 @@ align-items: flex-start;
   border-left: solid 1px #C7C7C7;
   border-right: solid 1px #C7C7C7;
 }
-.captchaTermUse > p {
+
+.captchaTermUse>p {
   padding: 0;
   margin: 0;
 }
-.captchaTermUse > p > a {
+
+.captchaTermUse>p>a {
   text-decoration: none;
   color: #0077c5;
   padding: 0;
   margin: 0;
 }
-.Legal{
+
+.Legal {
   margin-top: 0.8rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-.Legal > a {
+
+.Legal>a {
   text-decoration: none;
   color: #505050;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
-.copyRights > p {
+
+.copyRights>p {
   padding-top: 0;
   padding-bottom: 0;
   margin: 0;
   text-align: center;
 }
 
-.Forms > form > input {
+.Forms>form>input {
   border: 0.5px solid #c1c5c8;
   border-radius: 4px;
-  font-family:Arial, FontAwesome;
+  font-family: Arial, FontAwesome;
   padding: 10px 0;
   font-size: 16px;
   text-indent: 10px;
 }
 
 input:focus {
-  border:1px solid rgb(245, 249, 250) !important;
+  border: 1px solid rgb(245, 249, 250) !important;
   box-shadow: 0 0 5px rgb(95, 170, 240) !important;
 }
 
-.lockPassword > input {
+.lockPassword>input {
   text-align: right;
 }
 
