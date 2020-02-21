@@ -34,7 +34,6 @@ body {
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
-  background-color: white;
   justify-self: stretch;
   align-self: baseline;
   background-color: #eceef1;
@@ -111,6 +110,12 @@ body {
 .formTitle > a {
   text-decoration: none;
   color: rgb(76, 76, 76);
+}
+
+.formTitle > p {
+  text-decoration: none;
+  color: rgb(76, 76, 76);
+  font-size: 13px;
 }
 
 .ForgottenPw > p > a {
@@ -296,7 +301,7 @@ input:focus {
 .Forms > form > input {
   border: 0.5px solid #c1c5c8;
   border-radius: 4px;
-  font-family: Helvetica, Arial, FontAwesome;
+  font-family: Helvetica, Arial, FontAwesome, sans-serif;
   padding: 10px 0;
   font-size: 16px;
   text-indent: 10px;
