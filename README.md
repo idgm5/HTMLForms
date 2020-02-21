@@ -7,8 +7,8 @@ A [Intuit Sign-up Website Clone](https://accounts.intuit.com/signup.html).
 ## Usage
 ```Git
 git clone https://github.com/ghamtre/HTMLForms
-cd Youtube-Embeded
-git checkout FeatureB-css
+cd HTMLForms
+git checkout Mint
 firefox .
 ```
 

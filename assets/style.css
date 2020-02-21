@@ -1,14 +1,12 @@
-/*---------Styling-the-main-containers-of-the-page----------*/
 body {
   margin: 8px;
   display: grid;
   grid-template-rows: 60px 117px 600px 70px auto;
   grid-template-columns: 1fr 360px 1fr;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-/*---------Styling-the-Master-container-that-contains-all-the-forms------*/
 .navigationRightSide {
   grid-column-start: 3;
   grid-column-end: 4;
@@ -38,9 +36,9 @@ body {
   grid-row-end: 4;
   background-color: white;
   justify-self: stretch;
-  border-top: solid 1px #C7C7C7;
-  border-left: solid 1px #C7C7C7;
-  border-right: solid 1px #C7C7C7;
+  border-top: solid 1px #c7c7c7;
+  border-left: solid 1px #c7c7c7;
+  border-right: solid 1px #c7c7c7;
 }
 
 .captchaTermUse {
@@ -58,7 +56,7 @@ body {
   grid-row-start: 5;
   grid-row-end: 6;
   justify-self: stretch;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -69,13 +67,12 @@ body {
   color: #505050;
 }
 
-/*---------Styling-ForgottenPw-Container------*/
 .SignInButton {
   margin-left: 0.5rem;
   font-weight: normal;
 }
 
-.SignInButton>button {
+.SignInButton > button {
   background: #0077c5;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
@@ -85,29 +82,28 @@ body {
   color: white;
 }
 
-.SignInButton>button>i {
+.SignInButton > button > i {
   width: .8em;
   vertical-align: text-top;
   font-size: 18px;
 }
 
-.SignInButton>button>span {
+.SignInButton >  button > span {
   padding: 0 10px;
   font-size: 16px;
 }
 
-.ForgottenPw>p {
+.ForgottenPw > p {
   margin: 0;
   color: #505050;
   font-size: 12px;
   line-height: 1.5;
 }
 
-.ForgottenPw>p>a {
+.ForgottenPw > p > a {
   text-decoration: none;
 }
 
-/*--Styling-the-Intuit-brand-bar---*/
 .BrandIntuitLogo {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
@@ -122,7 +118,7 @@ body {
   align-self: center;
 }
 
-.Logos>.mint {
+.Logos > .mint {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
   background-repeat: no-repeat;
@@ -130,7 +126,7 @@ body {
   width: 80px;
 }
 
-.Logos>.quickbooks {
+.Logos > .quickbooks {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
   background-repeat: no-repeat;
@@ -138,7 +134,7 @@ body {
   width: 138px;
 }
 
-.Logos>.turbotax {
+.Logos > .turbotax {
   background-image: url(./img/logoIntuit.png);
   height: 40px;
   background-repeat: no-repeat;
@@ -146,7 +142,6 @@ body {
   width: 100px;
 }
 
-/*--Styling-the-form-containers--*/
 .FormContainer {
   display: flex;
   flex-direction: column;
@@ -167,7 +162,7 @@ body {
   height: 390px;
 }
 
-.Forms>form {
+.Forms > form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -175,12 +170,12 @@ body {
   height: 5rem;
 }
 
-.Forms>form>label {
+.Forms > form > label {
   padding-bottom: 0.5rem;
   padding-top: 1rem;
 }
 
-.Forms>form>input {
+.Forms > form > input {
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   width: 100%;
@@ -192,7 +187,7 @@ body {
   width: 100%;
 }
 
-.CreateAccountButton>button {
+.CreateAccountButton > button {
   background: #0077c5;
   border-radius: 4px;
   border: none;
@@ -202,7 +197,7 @@ body {
   width: 100%;
 }
 
-.CreateAccountButton>button>i {
+.CreateAccountButton > button > i {
   width: .8em;
   vertical-align: text-top;
   font-size: 1rem;
@@ -212,24 +207,24 @@ body {
   text-align: center;
 }
 
-.formTitle>a {
+.formTitle > a {
   text-decoration: none;
   color: rgb(76, 76, 76);
 }
 
-.formTitle>a>p {
+.formTitle > a > p {
   font-size: 13px;
   margin: 0;
 }
 
-.formTitle>h6>a {
+.formTitle > h6 > a {
   text-decoration: none;
   font-size: 12px;
   color: #0077c5;
   font-weight: 300;
 }
 
-.formTitle>h6 {
+.formTitle > h6 {
   margin: 0;
 }
 
@@ -238,7 +233,7 @@ body {
   width: 95%;
 }
 
-.AgreeingPivacyPolicy>p {
+.AgreeingPivacyPolicy > p {
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -249,14 +244,14 @@ body {
   font-weight: 400;
 }
 
-.AgreeingPivacyPolicy>p>a {
+.AgreeingPivacyPolicy > p > a {
   text-decoration: none;
   color: #0077c5;
 }
 
 .captchaTermUse {
   align-self: baseline;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   font-size: 12px;
   margin: 0;
   padding: 1.3rem;
@@ -266,17 +261,17 @@ body {
   font-size: 12px;
   font-weight: 400;
   text-align: center;
-  border-bottom: solid 1px #C7C7C7;
-  border-left: solid 1px #C7C7C7;
-  border-right: solid 1px #C7C7C7;
+  border-bottom: solid 1px #c7c7c7;
+  border-left: solid 1px #c7c7c7;
+  border-right: solid 1px #c7c7c7;
 }
 
-.captchaTermUse>p {
+.captchaTermUse > p {
   padding: 0;
   margin: 0;
 }
 
-.captchaTermUse>p>a {
+.captchaTermUse > p > a {
   text-decoration: none;
   color: #0077c5;
   padding: 0;
@@ -289,21 +284,21 @@ body {
   margin-bottom: 0;
 }
 
-.Legal>a {
+.Legal > a {
   text-decoration: none;
   color: #505050;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.copyRights>p {
+.copyRights > p {
   padding-top: 0;
   padding-bottom: 0;
   margin: 0;
   text-align: center;
 }
 
-.Forms>form>input {
+.Forms > form > input {
   border: 0.5px solid #c1c5c8;
   border-radius: 4px;
   font-family: Arial, FontAwesome;
@@ -317,7 +312,7 @@ input:focus {
   box-shadow: 0 0 5px rgb(95, 170, 240) !important;
 }
 
-.lockPassword>input {
+.lockPassword > input {
   text-align: right;
 }
 
