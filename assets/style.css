@@ -29,18 +29,6 @@ body {
   justify-content: center;
 }
 
-.FormContainer {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  background-color: white;
-  justify-self: stretch;
-  border-top: solid 1px #c7c7c7;
-  border-left: solid 1px #c7c7c7;
-  border-right: solid 1px #c7c7c7;
-}
-
 .captchaTermUse {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -48,6 +36,19 @@ body {
   grid-row-end: 5;
   background-color: white;
   justify-self: stretch;
+  align-self: baseline;
+  background-color: #eceef1;
+  margin: 0;
+  padding: 1.3rem;
+  color: rgb(117, 117, 117);
+  line-height: 1.3rem;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: solid 1px #c7c7c7;
+  border-left: solid 1px #c7c7c7;
+  border-right: solid 1px #c7c7c7;
 }
 
 .FootBar {
@@ -161,6 +162,15 @@ body {
   align-items: center;
   padding: 30px;
   margin: 0;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;
+  justify-self: stretch;
+  border-top: solid 1px #c7c7c7;
+  border-left: solid 1px #c7c7c7;
+  border-right: solid 1px #c7c7c7;
 }
 
 .Forms {
@@ -187,10 +197,13 @@ body {
   padding-top: 1rem;
 }
 
-.Forms > form > input {
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
-  width: 100%;
+input:focus {
+  border: 1px solid rgb(245, 249, 250) !important;
+  box-shadow: 0 0 5px rgb(95, 170, 240) !important;
+}
+
+.lockPassword > input {
+  text-align: right;
 }
 
 .CreateAccountButton {
@@ -267,22 +280,6 @@ body {
   color: #0077c5;
 }
 
-.captchaTermUse {
-  align-self: baseline;
-  background-color: #eceef1;
-  margin: 0;
-  padding: 1.3rem;
-  color: rgb(117, 117, 117);
-  line-height: 1.3rem;
-  font-style: italic;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: center;
-  border-bottom: solid 1px #c7c7c7;
-  border-left: solid 1px #c7c7c7;
-  border-right: solid 1px #c7c7c7;
-}
-
 .captchaTermUse > p > a {
   text-decoration: none;
   color: #0077c5;
@@ -299,19 +296,13 @@ body {
 .Forms > form > input {
   border: 0.5px solid #c1c5c8;
   border-radius: 4px;
-  font-family: Helvetica, Arial, Verdana, Tahoma, FontAwesome;
+  font-family: Helvetica, Arial, FontAwesome;
   padding: 10px 0;
   font-size: 16px;
   text-indent: 10px;
-}
-
-input:focus {
-  border: 1px solid rgb(245, 249, 250) !important;
-  box-shadow: 0 0 5px rgb(95, 170, 240) !important;
-}
-
-.lockPassword > input {
-  text-align: right;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  width: 100%;
 }
 
 ::-webkit-input-placeholder {
