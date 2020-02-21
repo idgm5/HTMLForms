@@ -28,6 +28,7 @@ align-items: flex-start;
     justify-self: stretch;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .FormContainer {
@@ -299,6 +300,11 @@ align-items: flex-start;
   padding: 10px 0;
   font-size: 16px;
   text-indent: 10px;
+}
+
+input:focus {
+border:1px solid blue !important;
+box-shadow: 0 0 10px rgb(30, 4, 146) !important; 
 }
 
 .lockPassword > input {
