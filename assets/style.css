@@ -6,7 +6,6 @@ body {
   grid-template-rows: 60px 117px 600px 70px auto ;
   grid-template-columns: 1fr 360px 1fr;
   background-color: #ECEEF1;
-/*box-sizing: border-box;*/
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 /*---------Styling-the-Master-container-that-contains-all-the-forms------*/
@@ -57,8 +56,16 @@ align-items: flex-start;
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 6;
-    background-color: rgb(255, 0, 55);
     justify-self: stretch;
+    background-color: #ECEEF1;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: rgb(117, 117, 117);
 }
 
 /*---------Styling-ForgottenPw-Container------*/
@@ -148,8 +155,6 @@ align-items: flex-start;
   align-items: center;
   padding: 30px;
   margin: 0;
-  border: 1px;
-  border-color: #8a8a8a;
 }
 
 .Forms {
@@ -259,15 +264,30 @@ align-items: flex-start;
   border-left: solid 1px rgb(117, 117, 117) ;
   border-right: solid 1px rgb(117, 117, 117);
 }
-
 .captchaTermUse > p {
   padding: 0;
   margin: 0;
 }
-
 .captchaTermUse > p > a {
   text-decoration: none;
   color: #0077c5;
   padding: 0;
   margin: 0;
+}
+.Legal{
+  margin-top: 0.8rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.Legal > a {
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.copyRights > p {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
 }
