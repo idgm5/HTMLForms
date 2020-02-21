@@ -37,9 +37,9 @@ align-items: flex-start;
     grid-row-end: 4;
     background-color: white;
     justify-self: stretch;
-    border-top: solid 1px rgb(117, 117, 117);
-    border-left: solid 1px rgb(117, 117, 117) ;
-    border-right: solid 1px rgb(117, 117, 117);
+    border-top: solid 1px #C7C7C7;
+    border-left: solid 1px #C7C7C7;
+    border-right: solid 1px #C7C7C7;
 }
 
 .captchaTermUse {
@@ -65,7 +65,7 @@ align-items: flex-start;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    color: rgb(117, 117, 117);
+    color: #505050;
 }
 
 /*---------Styling-ForgottenPw-Container------*/
@@ -212,7 +212,7 @@ align-items: flex-start;
 }
 
 .formTitle > a > p {
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
 }
 
@@ -260,9 +260,9 @@ align-items: flex-start;
   font-size: 12px;
   font-weight: 400;
   text-align: center;
-  border-bottom: solid 1px rgb(117, 117, 117);
-  border-left: solid 1px rgb(117, 117, 117) ;
-  border-right: solid 1px rgb(117, 117, 117);
+  border-bottom: solid 1px #C7C7C7;
+  border-left: solid 1px #C7C7C7;
+  border-right: solid 1px #C7C7C7;
 }
 .captchaTermUse > p {
   padding: 0;
@@ -281,7 +281,7 @@ align-items: flex-start;
 }
 .Legal > a {
   text-decoration: none;
-  color: rgb(117, 117, 117);
+  color: #505050;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
@@ -290,4 +290,33 @@ align-items: flex-start;
   padding-bottom: 0;
   margin: 0;
   text-align: center;
+}
+
+.Forms > form > input {
+  border: 0.5px solid #c1c5c8;
+  border-radius: 4px;
+  font-family:Arial, FontAwesome;
+  padding: 10px 0;
+  font-size: 16px;
+  text-indent: 10px;
+}
+
+.lockPassword > input {
+  text-align: right;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+}
+
+:-moz-placeholder {
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  font-size: 16px;
 }

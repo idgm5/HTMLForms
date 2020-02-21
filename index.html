@@ -5,6 +5,7 @@
     <title>Intuit Sign-up</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
   </head>
   <body>
     <nav class="navigationRightSide">
@@ -24,9 +25,9 @@
                   <a href="#"></a>
                 </div>
                 <div class="Logos">
-                        <div class="mint"><a href="#"></a></div>
-                        <div class="quickbooks"><a href="#"></a></div>
-                        <div class="turbotax"><a href="#"></div>
+                        <div class="mint"><a href="https://www.mint.com/"></a></div>
+                        <div class="quickbooks"><a href="https://quickbooks.intuit.com/"></a></div>
+                        <div class="turbotax"><a href="https://turbotax.intuit.com/"></div>
                 </div>
     </div>
 
@@ -43,11 +44,11 @@
                             </form>
                             <form>
                               <label>Phone (recommended)</label>
-                              <input type="tel">
+                              <input type="number">
                           </form>
-                          <form>
+                          <form class="lockPassword">
                               <label>Password</label>
-                              <input type="password">
+                              <input type="password" placeholder="&#xf13e;   ">
                           </form>
                           <div class="CreateAccountButton">
                                 <button><i class="material-icons">enhanced_encryption</i> Create Account</button>
@@ -55,29 +56,29 @@
                   </div>
                 <div class="AgreeingPivacyPolicy">
                       <p>By clicking Create account, you agree to our <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a></p>
-                </div> 
-                
+                </div>
+
       </div>
 
       <div class="captchaTermUse">
         <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms</a> of Use.</p>
-      </div>              
-
+      </div>
       <div class="FootBar">
                 <div class="Legal">
-                  <a href="#">Legal</a>
-                  <a href="#">Privacy</a>
-                  <a href="#">Security</a>
+                  <a href="https://www.intuit.com/company/">Legal</a>
+                  <a href="https://www.intuit.com/privacy/">Privacy</a>
+                  <a href="https://security.intuit.com/">Security</a>
                 </div>
                 <div class="copyRights">
                   <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. </p>
                   <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
                 </div>
       </div>
-
-
-
-
-
   </body>
 </html>
+
+<script>
+$("[type='number']").keypress(function (evt) {
+    evt.preventDefault();
+});
+</script>
