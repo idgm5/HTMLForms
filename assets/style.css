@@ -172,12 +172,6 @@ body {
   width: 95%;
 }
 
-
-input:focus {
-  border: 1px solid rgb(245, 249, 250) !important;
-  box-shadow: 0 0 5px rgb(95, 170, 240) !important;
-}
-
 .lockPassword > input {
   text-align: right;
 }
@@ -213,7 +207,7 @@ input:focus {
   font-weight: 400;
   line-height: 1.1;
   font-size: 24px;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .AgreeingPivacyPolicy > p {
@@ -276,16 +270,6 @@ input:focus {
   margin-bottom: 0;
 }
 
-input {
-  border: 0.5px solid #c1c5c8;
-  border-radius: 4px;
-  font-family: Helvetica, Arial, FontAwesome, sans-serif;
-  padding: 10px 0;
-  font-size: 16px;
-  text-indent: 10px;
-  width: 100%;
-}
-
 .Forms > div {
   display: flex;
   flex-direction: column;
@@ -297,16 +281,22 @@ input {
 
 .Forms > div > p {
   font-size: 10px;
-  color: rgb(68,68,68);
+  color: rgb(68, 68, 68);
+}
+
+input {
+  border: 0.5px solid #c1c5c8;
+  border-radius: 4px;
+  font-family: Helvetica, Arial, FontAwesome, sans-serif;
+  padding: 10px 0;
+  font-size: 16px;
+  text-indent: 10px;
+  width: 100%;
 }
 
 input:focus {
-border:1px solid rgb(245, 249, 250) !important;
-box-shadow: 0 0 5px rgb(95, 170, 240) !important;
-}
-
-.lockPassword > input {
-  text-align: right;
+  border: 1px solid rgb(245, 249, 250) !important;
+  box-shadow: 0 0 5px rgb(95, 170, 240) !important;
 }
 
 ::-webkit-input-placeholder {
