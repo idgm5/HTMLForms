@@ -163,9 +163,8 @@ body {
 .FormContainer {
   display: flex;
   flex-direction: column;
-  justify-items: space-evenly;
   align-items: center;
-  padding: 30px;
+  padding: 0;
   margin: 0;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -181,26 +180,13 @@ body {
 .Forms {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  box-sizing: border-box;
-  padding: 1.3rem;
-  margin: 0;
-  width: 318px;
-  height: 390px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-top: 2rem;
+  width: 95%;
 }
 
-.Forms > form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  height: 5rem;
-}
-
-.Forms > form > label {
-  padding-bottom: 0.5rem;
-  padding-top: 1rem;
-}
 
 input:focus {
   border: 1px solid rgb(245, 249, 250) !important;
@@ -238,7 +224,7 @@ input:focus {
 }
 
 .AgreeingPivacyPolicy > p {
-  margin: 0;
+  margin: 2.5rem;
   padding: 0;
   color: rgb(117, 117, 117);
   line-height: 1.3rem;
@@ -277,7 +263,6 @@ input:focus {
 
 .AgreeingPivacyPolicy {
   text-align: center;
-  width: 95%;
 }
 
 .AgreeingPivacyPolicy > p > a {
@@ -298,14 +283,28 @@ input:focus {
   margin-bottom: 0;
 }
 
-.Forms > form > input {
+input {
   border: 0.5px solid #c1c5c8;
   border-radius: 4px;
   font-family: Helvetica, Arial, FontAwesome, sans-serif;
   padding: 10px 0;
   font-size: 16px;
   text-indent: 10px;
-<<<<<<< HEAD
+  width: 100%;
+}
+
+.Forms > div {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: left;
+  margin-top: 10px;
+  width: 88%;
+}
+
+.Forms > div > p {
+  font-size: 10px;
+  color: rgb(68,68,68);
 }
 
 input:focus {
@@ -315,11 +314,6 @@ box-shadow: 0 0 5px rgb(95, 170, 240) !important;
 
 .lockPassword > input {
   text-align: right;
-=======
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
-  width: 100%;
->>>>>>> d03f5edc45b8622db2681df65d163d31815281ae
 }
 
 ::-webkit-input-placeholder {

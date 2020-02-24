@@ -32,28 +32,32 @@
     </div>
 
     <div class="FormContainer">
+      
                 <div class="formTitle">
-                        <h3>Creat an Intuit account</h3>
-                        <p>One account for everything Intuit, including Mint.</p>
-                        <h6><a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></h6>
+                    <h3>Creat an Intuit account</h3>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <h6><a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></h6>
                 </div>
-                <div class="Forms">
-                            <form>
+                
+                <form class="Forms">
+
+                            <div>
                                 <label>Email adress</label>
                                 <input type="email" required>
-                            </form>
-                            <form>
+                            </div>
+                            <div>
                               <label>Phone (recommended)</label>
-                              <input type="number">
-                          </form>
-                          <form class="lockPassword">
+                              <input type="tel">
+                            </div>
+                          <div class="lockPassword">
                               <label>Password</label>
                               <input type="password" placeholder="&#xf13e;   ">
-                          </form>
+                              <p>Standard call, messaging or data rates may apply.</p>
+                          </div>
                           <div class="CreateAccountButton">
                                 <button><i class="material-icons">enhanced_encryption</i> Create Account</button>
                           </div>
-                  </div>
+                  </form>
                 <div class="AgreeingPivacyPolicy">
                       <p>By clicking Create account, you agree to our <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a></p>
                 </div>
@@ -75,7 +79,7 @@
                 </div>
       </div>
       <script>
-      $("[type='number']").keypress(function (evt) {
+      $("[type='tel']").keypress(function (evt) {
           evt.preventDefault();
       });
       </script>
