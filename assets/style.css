@@ -172,10 +172,6 @@ body {
   width: 95%;
 }
 
-.lockPassword > input {
-  text-align: right;
-}
-
 .CreateAccountButton {
   padding-top: 2rem;
   font-weight: normal;
@@ -297,6 +293,10 @@ input {
 input:focus {
   border: 1px solid rgb(245, 249, 250) !important;
   box-shadow: 0 0 5px rgb(95, 170, 240) !important;
+}
+
+.lockPassword > input {
+  text-align: right;
 }
 
 ::-webkit-input-placeholder {
