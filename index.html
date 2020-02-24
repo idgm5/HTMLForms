@@ -21,63 +21,62 @@
                 </div>
     </nav>
     <div class="IntuitLogoArea">
-                <div class="BrandIntuitLogo">
-                  <a href="#"></a>
-                </div>
+
+                <a class="BrandIntuitLogo" href="https://www.intuit.com/">
+                  <img src="./assets/img/logo.png" alt="Intuit Logo">
+                </a>
                 <div class="Logos">
-                        <div class="mint" onclick="location.href='https://www.mint.com/'"></div>
-                        <div class="quickbooks" onclick="location.href='https://quickbooks.intuit.com/'"></div>
-                        <div class="turbotax" onclick="location.href='https://turbotax.intuit.com/'"></div>
+                        <a class="mint" href="https://www.mint.com/"><img src="./assets/img/mint.png" alt="Mint Logo"></a>
+                        <a class="quickbooks" href="https://quickbooks.intuit.com/"><img src="./assets/img/quickbooks.png" alt="Quickbooks Logo"></a>
+                        <a class="turbotax" href="https://turbotax.intuit.com/"><img src="./assets/img/turbotax.png" alt="Turbotax Logo"></a>
                 </div>
     </div>
 
     <div class="FormContainer">
+
                 <div class="formTitle">
-                        <h3>Creat an Intuit account</h3>
-                        <p>One account for everything Intuit, including Mint.</p>
-                        <h6><a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></h6>
+                    <h3>Creat an Intuit account</h3>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <h6><a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></h6>
                 </div>
-                <div class="Forms">
-                            <form>
+
+                <form class="Forms">
+
+                            <div>
                                 <label>Email adress</label>
                                 <input type="email" required>
-                            </form>
-                            <form>
+                            </div>
+                            <div>
                               <label>Phone (recommended)</label>
-                              <input type="numbers">
-                          </form>
-                          <form class="lockPassword">
+                              <input type="tel">
+                            </div>
+                          <div class="lockPassword">
                               <label>Password</label>
                               <input type="password" placeholder="&#xf13e;   ">
-                          </form>
+                              <p>Standard call, messaging or data rates may apply.</p>
+                          </div>
                           <div class="CreateAccountButton">
                                 <button><i class="material-icons">enhanced_encryption</i> Create Account</button>
                           </div>
-                  </div>
+                  </form>
                 <div class="AgreeingPivacyPolicy">
                       <p>By clicking Create account, you agree to our <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a></p>
                 </div>
 
       </div>
-
       <div class="captchaTermUse">
         <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms</a> of Use.</p>
       </div>
-      <div class="FootBar">
-                <div class="Legal">
-                  <a href="https://www.intuit.com/company/">Legal</a>
-                  <a href="https://www.intuit.com/privacy/">Privacy</a>
-                  <a href="https://security.intuit.com/">Security</a>
-                </div>
-                <div class="copyRights">
-                  <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. </p>
-                  <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-                </div>
-      </div>
-      <script>
-      $("[type='numbers']").keypress(function (evt) {
-          evt.preventDefault();
-      });
-      </script>
-  </body>
+      <footer class="FootBar">
+              <div class="Legal">
+                <a href="https://www.intuit.com/company/">Legal</a>
+                <a href="https://www.intuit.com/privacy/">Privacy</a>
+                <a href="https://security.intuit.com/">Security</a>
+              </div>
+              <div class="copyRights">
+                <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. </p>
+                <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+              </div>
+      </footer>
+    </body>
 </html>
