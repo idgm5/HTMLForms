@@ -1,0 +1,316 @@
+body {
+  margin: 8px;
+  display: grid;
+  grid-template-rows: 60px 117px 600px 70px auto;
+  grid-template-columns: 1fr 360px 1fr;
+  background-color: #eceef1;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navigationRightSide {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: stretch;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.IntuitLogoArea {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.captchaTermUse {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-self: stretch;
+  align-self: baseline;
+  background-color: #eceef1;
+  margin: 0;
+  padding: 1.3rem;
+  color: rgb(117, 117, 117);
+  line-height: 1.3rem;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: solid 1px #c7c7c7;
+  border-left: solid 1px #c7c7c7;
+  border-right: solid 1px #c7c7c7;
+}
+
+.FootBar {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  justify-self: stretch;
+  background-color: #eceef1;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: #505050;
+}
+
+.SignInButton {
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
+.SignInButton > button {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  height: 34px;
+  font-size: 1.125rem;
+  font-style: italic;
+  color: white;
+}
+
+.SignInButton > button > i {
+  width: 0.8em;
+  vertical-align: text-top;
+  font-size: 18px;
+}
+
+.SignInButton > button > span {
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.ForgottenPw > p {
+  margin: 0;
+  color: #505050;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.Legal > a {
+  text-decoration: none;
+  color: #505050;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.formTitle > a {
+  text-decoration: none;
+  color: rgb(76, 76, 76);
+}
+
+.formTitle > p {
+  text-decoration: none;
+  color: rgb(76, 76, 76);
+  font-size: 13px;
+}
+
+.ForgottenPw > p > a {
+  text-decoration: none;
+}
+
+.BrandIntuitLogo {
+  height: 40px;
+  width: 117px;
+  align-self: center;
+}
+
+.Logos {
+  display: flex;
+  align-self: center;
+}
+
+.Logos > .mint {
+  width: 80px;
+}
+
+.Logos > .quickbooks {
+  width: 138px;
+}
+
+.Logos > .turbotax {
+  width: 100px;
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;
+  justify-self: stretch;
+  border-top: solid 1px #c7c7c7;
+  border-left: solid 1px #c7c7c7;
+  border-right: solid 1px #c7c7c7;
+}
+
+.Forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-top: 2rem;
+  width: 95%;
+}
+
+.CreateAccountButton {
+  padding-top: 2rem;
+  font-weight: normal;
+  width: 100%;
+}
+
+.CreateAccountButton > button {
+  background: #0077c5;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+.CreateAccountButton > button > i {
+  width: 0.8em;
+  vertical-align: text-top;
+  font-size: 1rem;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+.formTitle > h3 {
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.AgreeingPivacyPolicy > p {
+  margin: 2.5rem;
+  padding: 0;
+  color: rgb(117, 117, 117);
+  line-height: 1.3rem;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.captchaTermUse > p {
+  padding: 0;
+  margin: 0;
+}
+
+.copyRights > p {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.formTitle > a > p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.formTitle > h6 > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #0077c5;
+  font-weight: 300;
+}
+
+.formTitle > h6 {
+  margin: 0;
+}
+
+.AgreeingPivacyPolicy {
+  text-align: center;
+}
+
+.AgreeingPivacyPolicy > p > a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.captchaTermUse > p > a {
+  text-decoration: none;
+  color: #0077c5;
+  padding: 0;
+  margin: 0;
+}
+
+.Legal {
+  margin-top: 0.8rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Forms > div {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: left;
+  margin-top: 10px;
+  width: 88%;
+}
+
+.Forms > div > p {
+  font-size: 10px;
+  color: rgb(68, 68, 68);
+}
+
+input {
+  border: 0.5px solid #c1c5c8;
+  border-radius: 4px;
+  font-family: Helvetica, Arial, FontAwesome, sans-serif;
+  padding: 10px 0;
+  font-size: 16px;
+  text-indent: 10px;
+  width: 100%;
+}
+
+input:focus {
+  border: 1px solid rgb(245, 249, 250) !important;
+  box-shadow: 0 0 5px rgb(95, 170, 240) !important;
+}
+
+.lockPassword > input {
+  text-align: right;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+}
+
+:-moz-placeholder {
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  font-size: 16px;
+}
